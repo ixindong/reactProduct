@@ -1,0 +1,55 @@
+.proposalDetail{
+  .headImg{
+    width: 100%;
+    height: 200rem/$num;
+  }
+  .contantBox{
+    font-size: 12rem/$num;
+    margin: 0px 2% 45rem/$num 2%;
+  }
+  .header{
+    font-size: 16rem/$num;
+    //padding: 8rem/$num 0px;
+    height: 40rem/$num;
+    line-height: 40rem/$num;
+    margin-left: 2%;
+  }
+  .term {
+    width: 80rem/$num;
+    height: 30rem/$num;
+    float: right;
+    margin-top:5rem/$num;
+  }
+  .headTitle{
+    align-items: center;
+    height: 40rem/$num;
+    line-height: 40rem/$num;
+    display: flex;
+    font-size: 16rem/$num;
+    color:#e40114;
+
+  }
+  .headTitle span {
+    width:2rem/$num;
+    height:12rem/$num;
+    background: #e40114;
+    display:inline-block;
+    margin-right:5rem/$num;
+  }
+  .contant p{
+    font-size: 14rem/$num;
+    line-height: 18rem/$num;
+  }
+  .btnGroup{
+    position: fixed;
+    bottom:0px;
+    background:#E60012;
+    width:100%;
+    height:40rem/$num;
+    line-height: 40rem/$num;
+    text-align:center;
+    color:#fff;
+    font-size:16rem/$num
+  }
+}
+

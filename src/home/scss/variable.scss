@@ -1,0 +1,31 @@
+/**
+ * 页面统一颜色
+ */
+$color-orange: #ff6600;//主色 橙色
+$color-blue: #4990e2;//链接颜色
+$color-red: #e90505;//点缀颜色
+$color-black1: #333;//标题颜色
+$color-black2: #666;//内容颜色
+$color-gray1: #e2e2e2;//线的颜色
+$color-white: #fff;//背景颜色
+/* px转rem */
+$num: 22.08;
+/* 左右间距 */
+$padding-num: (30rem/$num);
+/**
+ * 页面统一字号
+ */
+$fs1: (24rem/$num);
+$fs2: (28rem/$num);
+$fs3: (32rem/$num);
+$fs4: (36rem/$num);
+$fs5: (48rem/$num);
+
+//间距规范
+$space8: (8rem/$num);
+$space16: (16rem/$num);
+$space24: (24rem/$num);
+$space32: (32rem/$num);
+$space40: (40rem/$num);
+$space48: (48rem/$num);
+$space64: (64rem/$num);

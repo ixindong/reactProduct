@@ -1,0 +1,19 @@
+.component-input{
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  .input{
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: (28rem/$num);
+    color: $color-black1;
+    text-indent: (60rem/$num);
+  }
+  .icon-del{
+    display: block;
+    width: (40rem/$num);
+    height: (40rem/$num);
+    background: url('../image/icon/icon-delete.png');
+    background-size: cover;
+  }
+}

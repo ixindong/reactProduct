@@ -1,0 +1,26 @@
+.component-checkbox {
+  padding-top: (24rem/$num);
+  margin-bottom: (50rem/$num);
+  .check-icon {
+    display: inline-block;
+    width: (34rem/$num);
+    height: (34rem/$num);
+    // background: url('../image/icon/icon-checkbox00.jpg') no-repeat center;
+    // background-size: contain;
+    -webkit-background-size: contain;
+    vertical-align: middle;
+    &.selected {
+      background: url('../image/icon/icon-checkbox0.png') no-repeat center;
+      background-size: contain;
+      -webkit-background-size: contain;
+    }
+  }
+  .agree-title {
+    padding:0 (10rem/$num);
+    vertical-align: middle;
+  }
+  .link-url {
+    vertical-align: middle;
+    color: $color-blue;
+  }
+}

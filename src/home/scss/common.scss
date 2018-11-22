@@ -1,0 +1,300 @@
+//字号
+.fs24{
+  font-size: $fs1;
+}
+.fs28{
+  font-size: $fs2;
+}
+.fs32{
+  font-size: $fs3;
+}
+.fs36{
+  font-size: $fs4;
+}
+.fs48{
+  font-size: $fs5;
+}
+//间距规范
+.m-top8{
+  margin-top: $space8;
+}
+.m-top16{
+  margin-top: $space16;
+}
+.m-top24{
+  margin-top: $space24;
+}
+.m-top32{
+  margin-top: $space32;
+}
+.m-top40{
+  margin-top: $space40;
+}
+.m-top48{
+  margin-top: $space48;
+}
+.m-top64{
+  margin-top: $space64;
+}
+.m-bottom8{
+  margin-bottom: $space8;
+}
+.m-bottom16{
+  margin-bottom: $space16;
+}
+.m-bottom24{
+  margin-bottom: $space24;
+}
+.m-bottom32{
+  margin-bottom: $space32;
+}
+.m-bottom40{
+  margin-bottom: $space40;
+}
+.m-bottom48{
+  margin-bottom: $space48;
+}
+.m-bottom64{
+  margin-bottom: $space64;
+}
+.p-top8{
+  padding-top: $space8;
+}
+.p-top16{
+  padding-top: $space16;
+}
+.p-top24{
+  padding-top: $space24;
+}
+.p-top32{
+  padding-top: $space32;
+}
+.p-top40{
+  padding-top: $space40;
+}
+.p-top48{
+  padding-top: $space48;
+}
+.p-top64{
+  padding-top: $space64;
+}
+.p-bottom8{
+  padding-bottom: $space8;
+}
+.p-bottom16{
+  padding-bottom: $space16;
+}
+.p-bottom24{
+  padding-bottom: $space24;
+}
+.p-bottom32{
+  padding-bottom: $space32;
+}
+.p-bottom40{
+  padding-bottom: $space40;
+}
+.p-bottom48{
+  padding-bottom: $space48;
+}
+.p-bottom64{
+  padding-bottom: $space64;
+}
+.title1{
+  padding-top: $space40;
+  padding-bottom: $space40;
+}
+.title2{
+  padding-top: $space32;
+  padding-bottom: $space32;
+}
+.h1{
+  font-size: $fs5;
+  color: $color-black1;
+}
+.h2{
+  font-size: $fs4;
+  color: $color-black1;
+}
+.content{
+  font-size: $fs1;
+  color: $color-black2;
+  margin-top: $space24;
+  line-height: 150%;
+}
+
+// 盒子布局
+.box {
+  display: -webkit-box;
+  display: box;
+  -webkit-box-align: center;
+  .flex {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+  }
+  .flex-left {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    text-align: left;
+  }
+  .flex-right {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    text-align: right;
+  }
+  .flex-center {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    text-align: center;
+  }
+}
+//其他布局
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+//水平布局
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+//垂直布局
+.vertical-top{
+  vertical-align: top;
+}
+.vertical-middle{
+  vertical-align: middle;
+}
+.vertical-bottom{
+  vertical-align: bottom;
+}
+//清除浮动
+.clear:after {
+  content: '';
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+//定位
+.fixed{
+  position: fixed;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.position-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+.position-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.position-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fixed-center{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+//最顶部容器
+.application{
+}
+//内容区块
+.wrap {
+  padding: 0 $padding-num;
+}
+//显示隐藏
+.show{
+    display: block!important;
+}
+.show-inline{
+    display: inline-block!important;
+}
+.show-box{
+    display: box !important;
+}
+.hide{
+    display: none!important;
+}
+.hide-hidden{
+    visibility: hidden;
+}
+//分享图标
+.wrap-share-icon{
+    width: 0;
+    height: 0;
+    .share-icon{
+        width: 0;
+        height: 0;
+    }
+}
+/**
+ * 灰色蒙层
+ */
+.cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(245,245,245, 0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.lh {
+  line-height: 150%;
+}
+//边框
+.b-bottom{
+  border-bottom: 1px solid $color-gray1;
+}
+.b-top{
+  border-top: 1px solid $color-gray1;
+}
+//字体颜色
+.c-orange{//主色 橙色
+  color: $color-orange;
+}
+.c-blue{//链接颜色
+  color: $color-blue;
+}
+.c-red{//点缀颜色
+  color: $color-red;
+}
+.c-black1{//标题颜色
+  color: $color-black1;
+}
+.c-black2{//内容颜色
+  color: $color-black2;
+}
+.c-gray1{//线的颜色
+  color: $color-gray1;
+}
+.c-white{//背景颜色
+  color: $color-white;
+}
+
+/*元素公共样式end*/
+.applicationTop{
+  padding-top: 47rem/$num;
+}

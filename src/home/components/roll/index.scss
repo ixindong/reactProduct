@@ -1,0 +1,35 @@
+.component-roll-container {
+	width: 100%;
+	padding-bottom: (140rem/$num);
+	overflow: hidden;
+	position: relative;
+	.swiper-wrapper {
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: -webkit-box;
+		.swiper-slide{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			overflow: hidden;
+		}
+	}
+	.swiper-pagination{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		.swiper-pagination-bullet {
+		  width: (12rem/$num);
+		  height: (12rem/$num);
+		  display: inline-block;
+		  border-radius: 100%;
+		  background-color: $color-white;
+		  margin: 0 .3rem;
+		}
+		.swiper-pagination-bullet-active {
+		  background-color: $color-orange;
+		}
+	}
+}

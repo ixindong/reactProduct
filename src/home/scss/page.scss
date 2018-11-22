@@ -1,0 +1,16 @@
+@import  '../containers/index.scss';//首页样式
+@import '../routes/page/demo1/containers/index.scss';//demo1
+@import '../routes/page/demo2/containers/index.scss';//demo2
+@import '../routes/page/ProductList/containers/index.scss';//产品列表
+@import '../routes/page/Applicant/containers/index.scss';//投保人
+@import '../routes/page/Insured/containers/index.scss';//被保人
+@import '../routes/page/InsurancePlan/containers/index.scss';//投保计划
+
+@import '../routes/page/Insured/containers/index.scss';//投保人
+@import '../routes/page/Proposal/containers/index.scss';//proposalDetail建议书详情
+@import '../routes/page/ProposalDetail/containers/index.scss';//proposalDetail建议书详情
+@import '../routes/page/ProposalPreview/containers/index.scss';//proposalDetail建议书详情
+@import '../routes/page/ProposalPreview/containers/silder.scss';//proposalPreview 滑块样式
+@import '../routes/page/ProposalTermList/containers/index.scss';//条款样式
+@import '../routes/page/InsuranceList/containers/index.scss';//投保单样式
+@import '../routes/page/SignDetail/containers/index.scss';//签单回执

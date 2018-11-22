@@ -1,0 +1,9 @@
+.icon{
+  display: inline-block;
+  &.icon-arrow-right {
+    width: (16rem/$num);
+    height: (30rem/$num);
+    background: url(../image/icon/icon-arrow.jpg) no-repeat center;
+    background-size: contain;
+  }
+}

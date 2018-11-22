@@ -1,0 +1,34 @@
+.footer{
+  width: 100%;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  background: #fff;
+  height: 49rem/$num;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size:10rem/$num;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(95,95,95,1);
+  line-height:14rem/$num;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8rem/$num;
+
+  li{
+    img{
+      width: 23rem/$num;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 3rem/$num;
+    }
+  }
+  li:nth-child(3) img{
+    width: 18rem/$num;
+  }
+}
+
+.Cred{
+  color:RGBA(230, 0, 18, 1)
+}

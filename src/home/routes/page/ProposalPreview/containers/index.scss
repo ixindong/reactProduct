@@ -1,0 +1,144 @@
+.preview{
+  background: #F5F5F5;
+  margin-bottom: 45rem/$num;
+  .img{
+    width: 100%;
+    height: 212.5rem/$num;
+  }
+  .previewContent{
+    font-size: 12rem/$num;
+    margin: 10rem/$num 2% 10rem/$num 2%;
+    background: #fff;
+    border-top-left-radius: 10rem/$num;
+    border-top-right-radius: 10rem/$num;
+    overflow: hidden;
+    padding-bottom: 10rem/$num;
+
+  }
+  .previewContent>h5{
+    background:#EB3341;
+    height:40rem/$num;
+    line-height: 40rem/$num;
+    color:#fff;
+    font-size: 16rem/$num;
+    text-align: center;
+  }
+  .previewContent>p{
+    padding: 10rem/$num;
+    font-size: 14rem/$num;
+    line-height:16rem/$num;
+
+  }
+  //保障计划
+  .plan{
+
+  }
+  .plan>li{
+    float: left;
+    width:49%;
+    text-align: center;
+    /*border-right: 1px solid #ccc;*/
+    padding:20rem/$num 0px;
+    font-size: 14rem/$num;
+  }
+  .plan li:nth-child(1),.plan li:nth-child(3){
+    border-right: 1px solid #ccc;
+  }
+  .plan li:nth-child(1),.plan li:nth-child(2){
+    border-bottom: 1px solid #ccc;
+  }
+
+  .plan>li>p{
+    margin-bottom:8rem/$num;
+  }
+  .plan>li>span{
+    color: #E60012;
+    font-size: 16rem/$num;
+
+  }
+  .hidePlan{
+    text-align: center;
+  }
+  .hidePlan>img{
+    width: 50rem/$num;
+    height: 25rem/$num;
+  }
+  //产品特色
+  .productFeatur>li{
+    margin: 8rem/$num 0px;
+    font-size: 14rem/$num;
+    padding-left: 10rem/$num;
+  }
+  //利益演示
+  .sliderBox{
+    margin: 10rem/$num 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sliderBox img{
+    width: 28rem/$num;
+    height: 20rem/$num;
+  }
+  .sliderBox img:nth-child(1){
+    width: 30rem/$num;
+    height: 12rem/$num;
+    margin-top:3rem/$num;
+
+  }
+
+  .interestPlan{
+    border: 1px solid #EB3341;
+    margin: 10rem/$num;
+    border-radius: 8rem/$num;
+  }
+  .interestPlan>li{
+    font-size: 14rem/$num;
+    margin: 15rem/$num 0px;
+    padding-left:10rem/$num;
+  }
+  .interestPlan>li>input{
+    border:1px solid #666;
+    border-radius: 8rem/$num;
+    height: 35rem/$num;
+    line-height: 35rem/$num;
+    margin:0px 8rem/$num;
+  }
+  .interestImg{
+    text-align: center;
+    padding-bottom: 15rem/$num;
+  }
+  .interestImg img{
+    width: 120rem/$num;
+    height: 35rem/$num;
+    margin-bottom: 15rem/$num;
+  }
+  //温馨提示
+  .alert{
+    font-size: 14px;
+    color: #666;
+    line-height: 15rem/$num;
+  }
+
+  .previewBtnGroup{
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    height:40rem/$num;
+    line-height: 40rem/$num;
+    color:#fff;
+    font-size:16rem/$num;
+    background: #fff;
+  }
+  .previewBtnGroup>span{
+    color: #E60012
+  }
+  .previewBtnGroup>span:nth-child(2){
+    float: right;
+    color: #E60012
+  }
+}
+
+
+
+
+

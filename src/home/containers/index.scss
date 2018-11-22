@@ -1,0 +1,128 @@
+.component-swiper-container{
+  width: 100%;
+  height: 180rem/$num;
+}
+.MainBanner{
+  width: 25rem/$num;
+  height: 21rem/$num;
+  position: absolute;
+  z-index: 98;
+  top:26rem/$num;
+  right:12rem/$num;
+  font-size: 11rem/$num;
+  text-align: center;
+  color: #fff;
+  img{
+    width: 23rem/$num;
+    height: 21rem/$num;
+  }
+}
+.MainInsure{
+  width: 100%;
+  text-align: center;
+  font-size:13rem/$num;
+  color: #777;
+  display: flex;
+  justify-content: space-around;
+  padding: 20rem/$num 0 20rem/$num 0;
+  li{
+    width: 70rem/$num;
+    text-align: center;
+    img{
+      width: 40rem/$num;
+      height: 40rem/$num;
+      margin-bottom: 5rem/$num;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+body{
+  background: #f5f5f5;
+}
+.complanyBox{
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 10rem/$num;
+  padding: 0 25rem/$num 0 0;
+  font-size:14rem/$num;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+  line-height:20px;
+  li{
+    float: left;
+  }
+  li:nth-child(1){
+    border-right: 1px solid #F0F0F0;
+    width: 180rem/$num;
+    box-sizing: border-box;
+    text-align: center;
+    p{
+      margin-left: 16rem/$num;
+      width: 94rem/$num;
+      margin-bottom: 10rem/$num;
+      margin-top: 13rem/$num;
+      text-align: left;
+    }
+    img{
+      width: 94rem/$num;
+      height: 133rem/$num;
+      margin: 10rem/$num 26rem/$num 0 26rem/$num;
+    }
+  }
+  li:nth-child(2){
+    border-bottom: 1px solid #F0F0F0;
+    width: calc(100% - 8.15217rem);
+    p{
+      width: 56rem/$num;
+      margin-left: 12rem/$num;
+      margin-right: 18rem/$num;
+      margin-top: 13rem/$num;
+      float: left;
+    }
+    img{
+      width: 114rem/$num;
+      height: 84rem/$num;
+      float: left;
+      margin-top: 4rem/$num;
+    }
+  }
+  li:nth-child(3){
+    border-right: 1px solid #F0F0F0;
+    width: calc((100% - 8.15217rem)/2);
+    text-align: center;
+    box-sizing: border-box;
+    p{
+      width: 56rem/$num;
+      margin-left: 12rem/$num;
+      margin-top: 8rem/$num;
+      text-align: left;
+      margin-bottom: 10rem/$num;
+    }
+    img{
+      width: 53rem/$num;
+      height: 47rem/$num;
+      margin-top: 4rem/$num;
+      margin-bottom: 10rem/$num;
+    }
+  }
+  li:nth-child(4){
+    width: calc((100% - 8.15217rem)/2);
+    text-align: center;
+    p{
+      width: 56rem/$num;
+      margin-left: 12rem/$num;
+      margin-top: 8rem/$num;
+      text-align: left;
+      margin-bottom: 10rem/$num;
+    }
+    img{
+      width: 53rem/$num;
+      height: 47rem/$num;
+      margin-top: 4rem/$num;
+      margin-bottom: 10rem/$num;
+    }
+  }
+}

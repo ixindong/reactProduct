@@ -1,0 +1,39 @@
+.component-btn {
+  text-align: center;
+  .button {
+    font-size: 18rem/$num;
+    text-align: center;
+    color:#fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 15rem/$num 0;
+    &.component-btn-size1 {
+      width:100%;
+    }
+    &.component-btn-size2 {
+      width:(682rem/$num);
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+    }
+    &.component-btn-size3 {
+      width:100%;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+    }
+    &.component-btn-type1 {
+      background-color: $color-orange;
+      &.disabled {
+        background-color: rgba(255,102,0,.2);
+      }
+    }
+    &.component-btn-type2 {
+      border: 1px solid $color-orange;
+      background-color: #fff;
+      color: $color-orange;
+      &.disabled {
+        color: rgba(255,102,0,.2);
+        border-color: rgba(255,102,0,.2);
+      }
+    }
+  }
+}

@@ -1,0 +1,567 @@
+.tabContent {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 12rem/$num 0 12rem/$num;
+  overflow: auto;
+  background: #fff;
+  max-height: 594rem/$num;
+  li {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 12rem/$num;
+    .right {
+      float: left;
+      border-bottom: 1px solid #F0F0F0;
+      height: 79rem/$num;
+      width: calc(100% - 3.62319rem - 0.4529rem);
+    }
+    img {
+      width: 80rem/$num;
+      height: 80rem/$num;
+      float: left;
+      margin-right: 10rem/$num;
+    }
+    .title {
+      color: #333333;
+      font-size: 16rem/$num;
+      margin-bottom: 5rem/$num;
+    }
+    .content {
+      color: #999;
+      font-size: 12rem/$num;
+      line-height: 17rem/$num;
+      width: 216rem/$num;
+    }
+    .check {
+      position: absolute;
+      right: 12rem/$num;
+      bottom: 29rem/$num;
+      .no {
+        width: 20rem/$num;
+        height: 20rem/$num;
+      }
+      .act {
+        width: 20rem/$num;
+        height: 20rem/$num;
+      }
+    }
+  }
+}
+
+.tabTitle {
+  margin-bottom: 12rem/$num;
+  width: 100%;
+  font-size: 15rem/$num;
+  color: #333333;
+  height: 38rem/$num;
+  line-height: 38rem/$num;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 15rem/$num;
+  .act {
+    color: #E60012;
+  }
+  li {
+    position: relative;
+    span {
+      width: 20rem/$num;
+      height: 3rem/$num;
+      background: rgba(230, 0, 18, 1);
+      border-radius: 2rem/$num;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -10rem/$num;
+    }
+  }
+}
+
+.next {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 44rem/$num;
+  font-size: 16rem/$num;
+  color: #E60012;
+  text-align: right;
+  line-height: 44rem/$num;
+  padding-right: 12rem/$num;
+  box-sizing: border-box;
+  border-top: 1px solid #DCDCDC;
+  span {
+    height: 44rem/$num;
+  }
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  padding: 0 12rem/$num;
+  color: #333;
+  font-size: 15rem/$num;
+  box-sizing: border-box;
+  .border {
+    height: 1px;
+    width: 100%;
+    background: #DCDCDC;
+    top: 44rem/$num;
+    left: 0;
+    position: absolute;
+  }
+  .history {
+    width: 100%;
+    margin-top: 12rem/$num;
+    padding-top: 16rem/$num;
+    background: #fff;
+    .title {
+      margin-bottom: 21rem/$num;
+      text-align: left;
+    }
+    ul {
+      width: 100%;
+      li {
+        width: 100%;
+        overflow: hidden;
+        height: 21rem/$num;
+        margin-bottom: 19rem/$num;
+        line-height: 21rem/$num;
+        .Clock {
+          width: 18rem/$num;
+          height: 18rem/$num;
+          float: left;
+          margin-right: 10rem/$num;
+        }
+        p {
+          width: 345rem/$num;
+          font-size: 15rem/$num;
+          color: #333;
+          float: left;
+        }
+        .cha {
+          width: 12rem/$num;
+          height: 12rem/$num;
+          float: right;
+          margin-top: 4rem/$num;
+        }
+      }
+    }
+  }
+  .top {
+    margin-bottom: 6rem/num;
+    overflow: hidden;
+    margin-top: 6rem/$num;
+    .input {
+      float: left;
+      width: 345rem/$num;
+      height: 32rem/$num;
+      background: rgba(245, 245, 245, 1);
+      border-radius: 16rem/$num;
+      overflow: hidden;
+      line-height: 32rem/$num;
+      img {
+        width: 16rem/$num;
+        height: 16rem/$num;
+        float: left;
+        margin-left: 16rem/$num;
+        margin-top: 8rem/$num;
+      }
+      input {
+        width: calc(100% - 0.72464rem - 0.72464rem);
+        height: 32rem/$num;
+        background: rgba(245, 245, 245, 1);
+        float: left;
+        padding-left: 16rem/$num;
+        box-sizing: border-box;
+        line-height: 32rem/$num;
+      }
+    }
+    span {
+      display: block;
+      float: left;
+      line-height: 32rem/$num;
+      font-size: 15rem/$num;
+      width: calc(100% - 15.625rem);
+      text-align: right;
+    }
+  }
+
+}
+
+.searchedList {
+  width: 100%;
+  height: 345rem/$num;
+  background: #fff;
+  position: absolute;
+  z-index: 300;
+  top: 44rem/$num;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  li {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 12rem/$num;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F0F0F0;
+    line-height: 50rem/$num;
+    height: 50rem/$num;
+    font-size: 15rem/$num;
+    color: #666;
+    text-align: left;
+    position: relative;
+    img {
+      width: 10rem/$num;
+      height: 10rem/$num;
+      position: absolute;
+      right: 12rem/$num;
+      bottom: 15rem/$num;
+    }
+  }
+}
+
+.relationship {
+  width: 100%;
+  height: 50rem/$num;
+  background: #E60012;
+  color: #fff;
+  font-size: 15rem/$num;
+  line-height: 50rem/$num;
+  padding: 0 11rem/$num;
+  box-sizing: border-box;
+  overflow: hidden;
+  .title {
+    float: left;
+  }
+  .right {
+    float: right;
+    line-height: 50rem/$num;
+    padding-right: 32rem/$num;
+    position: relative;
+    height: 50rem/$num;
+    span {
+      color: #fff;
+      text-align: right;
+      height: 50rem/$num;
+      line-height: 50rem/$num;
+    }
+    .relationshipList {
+      color: #fff;
+      max-width: 150rem/$num;
+      text-align: right;
+      position: absolute;
+      z-index: 100;
+      height: 50rem/$num;
+      line-height: 50rem/$num;
+      top: 0;
+      right: 24rem/$num;
+      min-width: 50rem/$num;
+      opacity: 0;
+      option {
+        text-align: left;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    img {
+      width: 7rem/$num;
+      height: 13rem/$num;
+      margin-left: 12rem/$num;
+      position: absolute;
+      z-index: 100;
+      top: 19rem/$num;
+      right: 12rem/$num;
+    }
+  }
+}
+
+.informationFilling {
+  width: 100%;
+
+  .box {
+    background: #fff;
+    margin-top: 10rem/$num;
+    height: 50rem/$num;
+    color: #333;
+    overflow: hidden;
+
+  }
+  .EmphasisStyle {
+    margin-left: 10rem/$num;
+  }
+  .title {
+    height: 50rem/$num;
+    line-height: 50rem/$num;
+    font-size: 17rem/$num;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 18rem/$num;
+    position: relative;
+    img {
+      width: 13rem/$num;
+      height: 10rem/$num;
+      position: absolute;
+      right: 12rem/$num;
+      top: 20rem/$num;
+    }
+  }
+  .titleBorder {
+    border: 1px solid #DCDCDC;
+  }
+  li {
+    width: 100%;
+    background: #fff;
+    .add {
+      width: 22rem/$num;
+      height: 22rem/$num;
+      background: #E60012;
+      color: #fff;
+      text-align: center;
+      line-height: 22rem/$num;
+      margin-right: 10rem/$num;
+      border-radius: 50%;
+      display: inline-block;
+      font-size: 20rem/$num;
+    }
+    ul {
+      width: 100%;
+
+      box-sizing: border-box;
+      .cardScanning {
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        span {
+          float: left;
+          font-size: 15rem/$num;
+          color: #E60012;
+          position: absolute;
+          left: 15rem/$num;
+        }
+        img {
+          width: 110rem/$num;
+          height: 30rem/$num;
+        }
+      }
+      .finish {
+        width: 100%;
+        height: 50rem/$num;
+        padding: 0 12rem/$num;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-top: 1px solid #DCDCDC;
+        img {
+          width: 60rem/$num;
+          height: 30rem/$num;
+          float: right;
+          background: #fff;
+          margin-top: 10rem/$num;
+        }
+      }
+      .CheckList {
+        padding-left: 12rem/$num;
+        box-sizing: border-box;
+        background: #FBFBFB;
+        height: auto !important;
+        line-height: normal !important;
+        border-bottom: 1px solid #DCDCDC;
+        .input {
+          line-height: 50rem/$num;
+          height: 50rem/$num;
+          background: #FBFBFB;
+          font-size: 15rem/$num;
+          overflow: hidden;
+          padding-left: 10rem/$num;
+          box-sizing: border-box;
+          border-top: 1px solid #DCDCDC;
+          textarea {
+            width: calc(100% - 0.54384rem);
+            height: 160rem/$num;
+            border: 1px solid #A1A1A1;
+            box-sizing: border-box;
+            resize: none;
+          }
+          font {
+            color: #333;
+            float: left;
+          }
+          input {
+            height: 50rem/$num;
+            line-height: 50rem/$num;
+            float: left;
+            margin-left: 75rem/$num;
+            border: none;
+            background: none;
+          }
+        }
+        .borders {
+          min-height: 50rem/$num;
+          width: 100%;
+          line-height: 50rem/$num;
+          border-bottom: 1px solid #DCDCDC !important;
+          box-sizing: border-box;
+        }
+        .name {
+          width: 380rem/$num !important;
+          padding: 15rem/$num 0;
+        }
+        .pLong {
+          line-height: 20rem/$num;
+        }
+        dl {
+          overflow: hidden;
+          padding: 0 12rem/$num 0 10rem/$num;
+          dd {
+            width: 100%;
+            height: 50rem/$num;
+            line-height: 50rem/$num;
+            font-size: 15rem/$num;
+            color: #333;
+            img {
+              width: 16rem/$num;
+              height: 16rem/$num;
+              float: right;
+              margin-top: 17rem/$num;
+            }
+          }
+        }
+      }
+      .list, .CheckList {
+        height: 50rem/$num;
+        line-height: 50rem/$num;
+        padding-left: 12rem/$num;
+        box-sizing: border-box;
+        .border {
+          height: 50rem/$num;
+          line-height: 50rem/$num;
+          border-bottom: 1px solid #DCDCDC;
+          width: 100%;
+          box-sizing: border-box;
+        }
+        label {
+          color: #E60012;
+          font-size: 13rem/$num;
+          margin-right: 5rem/$num;
+        }
+        .name {
+          width: 90rem/$num;
+          font-size: 15rem/$num;
+          color: #333;
+          display: inline-block;
+        }
+        input, select, .time {
+          width: 200rem/$num;
+          line-height: 48rem/$num;
+          height: 48rem/$num;
+          font-size: 15rem/$num;
+          border: none;
+          background: none;
+          margin-left: 45rem/$num;
+          display: inline-block;
+          color: #333333;
+          font-weight: normal;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+        }
+        input, .time {
+          padding-left: 5rem/$num;
+        }
+
+        input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+          color: #333333;
+          font-size: 15rem/$num;
+        }
+      }
+      li {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.selectHeight {
+  height: auto !important;
+  li {
+    &:nth-last-child(1) {
+      border-bottom: 1px solid #DCDCDC;
+      .border {
+        border: none !important;
+      }
+    }
+  }
+}
+
+.borSelect {
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+.Main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 60rem/$num;
+  top: 2.12862rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.next {
+  width: 100%;
+  height: 50rem/$num;
+  line-height: 50rem/$num;
+  position: fixed;
+  z-index: 600;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  overflow: hidden;
+  padding: 0 12rem/$num;
+  font {
+    color: #E60012;
+    float: right;
+    font-size: 16rem/$num;
+    padding: 0 !important;
+
+  }
+  span {
+    color: #E60012;
+    float: left;
+    font-size: 16rem/$num;
+  }
+  select {
+    color: #E60012;
+    font-size: 16rem/$num;
+    height: 50rem/$num;
+    line-height: 50rem/$num;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 120rem/$num;
+    text-align: center;
+    margin-left: -50rem/$num;
+    padding: 0 0 0 20rem/$num;
+    box-sizing: border-box;
+  }
+  select:focus {
+    outline: none;
+  }
+}
+
+

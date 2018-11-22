@@ -1,0 +1,7 @@
+.component-image{
+  &.lazy{
+    width: 750px;
+    height: 750px;
+    background: url('../image/icon/icon-bank.png') 50% no-repeat;
+  }
+}

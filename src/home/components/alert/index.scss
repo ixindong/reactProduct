@@ -1,0 +1,147 @@
+// 即时消失的弹出框 类型为1
+.component-alert-type1 {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   width: 8.5rem;
+   padding: 1rem;
+   border-radius: .25rem;
+   background-color: rgba(51, 51, 51, .9);
+   font-size: .7rem;
+   color: $color-white;
+   text-align: center;
+   z-index: 999;
+   opacity: 0;
+}
+.component-alert-type1.active{
+   -webkit-animation: show 2s ease-in-out;
+}
+@-webkit-keyframes show{
+ 50%{
+   opacity: 1;
+ }
+ 100%{
+   opacity: 0;
+ }
+}
+
+/**
+* 确认取消弹窗 类型为2
+*/
+
+.component-alert-type2 {
+   width: 90%;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   background-color: $color-white;
+   border-radius: (10rem/$num);
+   z-index: 999;
+   text-align: center;
+  font-size: 16rem/$num;
+   .title {
+     font-size: 16rem/$num;
+     height: 50rem/$num;
+     line-height: 50rem/$num;
+     border-bottom: 1px solid $color-gray1;
+     color: RGBA(51, 51, 51, 1);
+     text-align: left;
+     padding-left: 17rem/$num;
+     box-sizing: border-box;
+     background: #f2f2f2;
+     border-radius: 10rem/$num 10rem/$num 0 0;
+   }
+   .content{
+     box-sizing: border-box;
+     color: $color-black2;
+     font-size: 18rem/$num;
+     padding-left: 17rem/$num;
+     padding-right: 17rem/$num;
+     padding-top: 17rem/$num;
+     padding-bottom: 17rem/$num;
+     line-height: 25rem/$num;
+     margin-top: 0;
+   }
+   .btn-list {
+     font-size: 18rem/$num;
+     border-top: 1px solid $color-gray1;
+     display: box;
+     display: -webkit-box;
+     .btn-item {
+       color: $color-orange;
+       box-flex: 1;
+       -webkit-box-flex: 1;
+       padding: (15rem/$num) 0;
+       &:first-child {
+         color: $color-blue;
+         border-right: 1px solid $color-gray1;
+       }
+     }
+   }
+}
+/**
+* 确认取消弹窗 类型为2
+*/
+
+.component-alert-type3 {
+   width: 90%;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   background-color: $color-white;
+   border-radius: (8rem/$num);
+   z-index: 999;
+   text-align: center;
+  .title {
+    font-size: 16rem/$num;
+    height: 50rem/$num;
+    line-height: 50rem/$num;
+    border-bottom: 1px solid $color-gray1;
+    color: RGBA(51, 51, 51, 1);
+    text-align: left;
+    padding-left: 17rem/$num;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    border-radius: 10rem/$num 10rem/$num 0 0;
+  }
+  .content{
+    box-sizing: border-box;
+    color: $color-black2;
+    font-size: 18rem/$num;
+    padding-left: 17rem/$num;
+    padding-right: 17rem/$num;
+    padding-top: 17rem/$num;
+    padding-bottom: 17rem/$num;
+    line-height: 25rem/$num;
+    margin-top: 0;
+  }
+   .btn-list {
+     font-size: 18rem/$num;
+     border-top: 1px solid $color-gray1;
+     display: box;
+     display: -webkit-box;
+     .btn-item {
+       color: $color-orange;
+       box-flex: 1;
+       -webkit-box-flex: 1;
+       padding: (15rem/$num) 0;
+       &:first-child {
+         color: $color-blue;
+         border-right: 1px solid $color-gray1;
+       }
+     }
+   }
+   .close-btn {
+     width:(32rem/$num);
+     height: (32rem/$num);
+     background-color: green;
+     position: absolute;
+     right:(30rem/$num);
+     top:(30rem/$num);
+   }
+}

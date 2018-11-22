@@ -1,0 +1,31 @@
+.component-accordion{
+  padding-top: (32rem/$num);
+  padding-bottom: (32rem/$num);
+  border-bottom: 1px solid $color-gray1;
+  &.selected {
+    .info-detail {
+      max-height: 4000px;
+      border-top: 1px solid $color-gray1;
+      margin-top: (32rem/$num);
+    }
+    .open-icon {
+      background: url(../image/icon/icon-arrow-bottom.png);
+      background-size: contain;
+    }
+  }
+  .info-detail {
+    overflow: hidden;
+    max-height: 0;
+    // -webkit-transition: max-height .5s linear;
+  }
+  .open-icon {
+    width: (32rem/$num);
+    height: (32rem/$num);
+    background: url(../image/icon/icon-arrow-right.png);
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}

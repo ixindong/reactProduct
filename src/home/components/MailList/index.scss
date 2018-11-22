@@ -1,0 +1,110 @@
+.MailList{
+	color: #333;
+	font-size: 15rem/$num;
+	overflow-y: auto;
+	position: fixed;
+	z-index: 1000;
+	top:2.12862rem;
+	bottom: 54rem/$num;
+	left: 0;
+	right: 0;
+	img{
+		width: 20rem/$num;
+		height: 20rem/$num;
+		float: left;
+		margin-right: 10rem/$num;
+		margin-top: 15rem/$num;
+	}
+	.name{
+		float: left;
+		min-width: 130rem/$num;
+	}
+	.gender{
+		float: left;
+		margin-right: 30rem/$num;
+		width: 50rem/$num;
+	}
+	.birthday{
+		float: left;
+	}
+	dt{
+		height: 30rem/$num;
+		line-height: 30rem/$num;
+		padding-left: 12rem/$num;
+		font-size: 14rem/$num;
+		color: #999;
+		box-sizing: border-box;
+		width: 100%;
+		background: #f5f5f5;
+		a{
+			height: 30rem/$num;
+			line-height: 30rem/$num;
+			font-size: 14rem/$num;
+			color: #999;
+			box-sizing: border-box;
+			width: 100%;
+			background: #f5f5f5;
+		}
+	}
+	dd{
+		width: 100%;
+		overflow: hidden;
+		background: #fff;
+		padding-left: 12rem/$num;
+		box-sizing: border-box;
+		height: 50rem/$num;
+		line-height: 50rem/$num;
+		border-bottom: 1px solid #F0F0F0;
+	}
+}
+.DictionariesList{
+	width: 20rem/$num;
+	font-size: 10rem/$num;
+	color: #333;
+	position: fixed;
+	z-index: 3400;
+	right: 0;
+	text-align: left;
+	top: 20%;
+	li{
+		line-height: 20rem/$num;
+		height: 20rem/$num;
+		width: 100%;
+	}
+}
+.customerIdShow{
+	width: 190rem/$num;
+	height: 100rem/$num;
+	line-height: 100rem/$num;
+	text-align: center;
+	position: fixed;
+	z-index: 600;
+	background: rgba(0,0,0,.3);
+	color: #333;
+	border-radius: 8rem/$num;
+	left:calc((100% - 8.60507rem)/2);
+	top:calc((100% - 4.52899rem)/2);
+}
+footer{
+	width: 100%;
+	height: 44rem/$num;
+	background: #fff;
+	line-height: 44rem/$num;
+	color: #E60012;
+	font-size: 16rem/$num;
+	padding: 0 13rem/$num;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2000;
+	bottom: 0;
+	left: 0;
+	span{
+		&:nth-child(1){
+			float: left;
+		}
+		&:nth-child(2){
+			float: right;
+		}
+	}
+}

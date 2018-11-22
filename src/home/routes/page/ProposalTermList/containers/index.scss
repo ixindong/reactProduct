@@ -1,0 +1,14 @@
+.ProposalTermList{
+  .termlist{
+    font-size: 14rem/$num;
+    margin: 8rem/$num 0px;
+    padding: 0px 10rem/$num;
+  }
+  .termlist>img{
+    width: 10rem/$num;
+    height: 7rem/$num;
+    float: right;
+    margin-top: 10rem/$num;
+  }
+}
+

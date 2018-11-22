@@ -1,0 +1,33 @@
+header{
+  padding: 0 16rem/$num 0 12rem/$num;
+  text-align: center;
+  overflow: hidden;
+  height: 47rem/$num;
+  width: 100%;
+  line-height: 47rem/$num;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 2;
+  .title{
+    color: #333333;
+    font-size: 18rem/$num;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+  }
+
+  .back{
+    position: absolute;
+    left: 16rem/$num;
+    width: 10rem/$num;
+    height: 18rem/$num;
+    top: ((47rem-18rem)/2)/$num;
+  }
+  .attach{
+    position: absolute;
+    right:16rem/$num;
+    top:12rem/$num;
+  }
+}

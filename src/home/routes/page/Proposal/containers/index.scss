@@ -1,0 +1,274 @@
+.proposal{
+  .tabContent{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 12rem/$num 0 12rem/$num;
+    overflow: auto;
+    background: #fff;
+    max-height: 594rem/$num;
+    margin-top:40rem/$num;
+    li{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      padding-top: 12rem/$num;
+      .right{
+        float: left;
+        border-bottom: 1px solid #F0F0F0;
+        height: 79rem/$num;
+        width: calc(100% - 3.62319rem - 0.4529rem);
+      }
+      .right p{
+        width:100%;
+        font-size: 12rem/$num;
+        overflow: hidden;
+        text-overflow:ellipsis;//文本溢出显示省略号
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        line-height: 16rem/$num;
+      }
+      img{
+        width: 80rem/$num;
+        height: 80rem/$num;
+        float: left;
+        margin-right:10rem/$num;
+      }
+      .title{
+        color: #333333;
+        font-size: 16rem/$num;
+        margin-bottom: 5rem/$num;
+      }
+      .content{
+        color: #999;
+        font-size: 12rem/$num;
+        line-height: 17rem/$num;
+        width: 216rem/$num;
+      }
+      .check{
+        position: absolute;
+        right:12rem/$num;
+        bottom: 29rem/$num;
+        .no{
+          width: 20rem/$num;
+          height: 20rem/$num;
+        }
+        .act{
+          width: 20rem/$num;
+          height: 20rem/$num;
+        }
+      }
+    }
+  }
+  .tabTitle{
+    margin-bottom: 12rem/$num;
+    width: 100%;
+    font-size: 15rem/$num;
+    color:#333333;
+    height: 38rem/$num;
+    line-height: 38rem/$num;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 15rem/$num;
+    position: fixed;
+    top:47rem/$num;
+    z-index: 2;
+    .act{
+      color: #E60012;
+    }
+    li{
+      position: relative;
+      span{
+        width:20rem/$num;
+        height:3rem/$num;
+        background:rgba(230,0,18,1);
+        border-radius:2rem/$num;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -10rem/$num;
+      }
+    }
+  }
+  .next{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 44rem/$num;
+    font-size: 16rem/$num;
+    color: #E60012;
+    text-align: right;
+    line-height: 44rem/$num;
+    padding-right: 12rem/$num;
+    box-sizing: border-box;
+    border-top: 1px solid #DCDCDC;
+    span{
+      height: 44rem/$num;
+    }
+  }
+  .proposalSearch{
+    width: 100%;
+    //height: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 200;
+    top:0;
+    left: 0;
+    padding: 0 12rem/$num;
+    color: #333;
+    font-size: 15rem/$num;
+    box-sizing: border-box;
+    .border{
+      height: 1px;
+      width: 100%;
+      background: #DCDCDC;
+      top:44rem/$num;
+      left: 0;
+      position: absolute;
+    }
+
+    .top{
+      margin-bottom: 6rem/num;
+      overflow: hidden;
+      margin-top: 6rem/$num;
+      .input{
+        float: left;
+        width:345rem/$num;
+        height:32rem/$num;
+        background:rgba(245,245,245,1);
+        border-radius:16rem/$num;
+        overflow: hidden;
+        line-height: 32rem/$num;
+        img{
+          width: 16rem/$num;
+          height: 16rem/$num;
+          float: left;
+          margin-left: 16rem/$num;
+          margin-top: 8rem/$num;
+        }
+        input{
+          width:calc(100% - 0.72464rem - 0.72464rem);
+          height:32rem/$num;
+          background:rgba(245,245,245,1);
+          float: left;
+          padding-left: 16rem/$num;
+          box-sizing: border-box;
+          line-height: 32rem/$num;
+        }
+      }
+      span{
+        display: block;
+        float: left;
+        line-height: 32rem/$num;
+        font-size: 15rem/$num;
+        width:calc(100% - 15.625rem);
+        text-align: right;
+      }
+    }
+
+  }
+  .searchedList{
+    width: 100%;
+    height: 345rem/$num;
+    background: #fff;
+    position: absolute;
+    z-index: 300;
+    top: 44rem/$num;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    li{
+      width: 100%;
+      overflow: hidden;
+      padding: 0 12rem/$num;
+      box-sizing: border-box;
+      border-bottom: 1px solid #F0F0F0;
+      line-height: 50rem/$num;
+      height: 50rem/$num;
+      font-size: 15rem/$num;
+      color: #666;
+      text-align: left;
+      position: relative;
+      img{
+        width: 10rem/$num;
+        height: 10rem/$num;
+        position: absolute;
+        right: 12rem/$num;
+        bottom: 15rem/$num;
+      }
+    }
+
+  }
+  .history{
+    //width: 100%;
+    margin-top: 12rem/$num;
+    padding: 0 12rem/$num 16rem/$num 12rem/$num;
+   // padding-bottom: 16rem/$num;
+
+    background: #fff;
+    .title{
+      margin-bottom: 21rem/$num;
+      text-align: left;
+      font-size: 14rem/$num;
+    }
+    ul{
+      //width: 100%;
+      li{
+        //width: 100%;
+        overflow: hidden;
+        height: 21rem/$num;
+        margin-bottom: 19rem/$num;
+        line-height: 21rem/$num;
+
+        .Clock{
+          width: 18rem/$num;
+          height: 18rem/$num;
+          float: left;
+          margin-right: 10rem/$num;
+        }
+        p{
+          width: 345rem/$num;
+          font-size: 15rem/$num;
+          color: #333;
+          float: left;
+        }
+        .cha{
+          width: 12rem/$num;
+          height: 12rem/$num;
+          float: right;
+          margin-top: 4rem/$num;
+        }
+      }
+    }
+    .clean{
+      text-align: center;
+    }
+    .clean span{
+      font-size: 12rem/$num;
+      color:#999;
+      display: inline-block;
+    }
+  }
+  .hotList{
+    padding:0 12rem/$num 10rem/$num 12rem/$num;
+    background: #fff;
+    p{
+      font-size: 14rem/$num;
+      padding: 10rem/$num;
+      font-size: 14rem/$num;
+    }
+    li{
+      background: #F5F5F5;
+      padding: 8rem/$num;
+      margin:3rem/$num;
+      display: inline-block;
+      border-radius: 5rem/$num;
+      font-size: 12rem/$num;
+    }
+  }
+}
